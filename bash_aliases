@@ -1,3 +1,9 @@
+# These are going here to keep everything independent of my actual bashrc file
+export PATH="$PATH:$HOME/Coding/linux_utilities"
+export VIMINIT='source $MYVIMRC'
+export MYVIMRC='~/.dotfiles/vimrc'
+
+
 ###########################
 # Folder shortcuts
 ###########################
