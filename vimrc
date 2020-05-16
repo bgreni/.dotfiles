@@ -13,6 +13,9 @@ Plug 'hdima/python-syntax'
 Plug 'neoclide/coc.vim'
 call plug#end()
 
+" so it'll use bash aliases
+:set shellcmdflag=-ic
+
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 set number
 filetype on
