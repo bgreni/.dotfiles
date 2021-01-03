@@ -3,6 +3,9 @@ export PATH="$PATH:$HOME/Coding/linux_utilities"
 export VIMINIT='source $MYVIMRC'
 export MYVIMRC='~/.dotfiles/vimrc'
 
+##########################
+# Schoolwork shortcut
+##########################
 
 ###########################
 # Folder shortcuts
