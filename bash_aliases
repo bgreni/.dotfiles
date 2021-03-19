@@ -1,8 +1,10 @@
+
+eval $(thefuck --alias)
 # These are going here to keep everything independent of my actual bashrc file
 export PATH="$PATH:$HOME/Coding/linux_utilities"
-export VIMINIT='source $MYVIMRC'
-export MYVIMRC='~/.dotfiles/vimrc'
-
+#export VIMINIT='source $MYVIMRC'
+#export MYVIMRC='~/.dotfiles/vimrc'
+alias connectec2="ssh -i ~/linuxkey.pem ec2-18-222-25-186.us-east-2.compute.amazonaws.com"
 ##########################
 # Schoolwork shortcut
 ##########################
